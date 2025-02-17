@@ -1,10 +1,11 @@
 package cn.hutool.dfa;
 
 import cn.hutool.core.collection.CollUtil;
-import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * DFA单元测试
@@ -27,7 +28,7 @@ public class DfaTest {
 		// 匹配到【大】，就不再继续匹配了，因此【大土豆】不匹配
 		// 匹配到【刚出锅】，就跳过这三个字了，因此【出锅】不匹配（由于刚首先被匹配，因此长的被匹配，最短匹配只针对第一个字相同选最短）
 		List<String> matchAll = tree.matchAll(text, -1, false, false);
-		assertEquals(matchAll, CollUtil.newArrayList("大", "土^豆", "刚出锅"));
+		assertEquals(CollUtil.newArrayList("大", "土^豆", "刚出锅"), matchAll);
 	}
 
 	/**
