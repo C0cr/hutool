@@ -1,7 +1,8 @@
 package cn.hutool.http;
 
-import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * Html单元测试
@@ -75,6 +76,29 @@ public class HtmlUtilTest {
 		str = "pre<div class=\"test_div\">\r\n\t\tdfdsfdsfdsf\r\n</div><div class=\"test_div\">BBBB</div>";
 		result = HtmlUtil.cleanHtmlTag(str);
 		assertEquals("pre\r\n\t\tdfdsfdsfdsf\r\nBBBB", result);
+	}
+
+	@Test
+	public void cleanEmptyTagTest() {
+		String str = "<p></p><div></div>";
+		String result = HtmlUtil.cleanEmptyTag(str);
+		assertEquals("", result);
+
+		str = "<p>TEXT</p><div></div>";
+		result = HtmlUtil.cleanEmptyTag(str);
+		assertEquals("<p>TEXT</p>", result);
+
+		str = "<p></p><div>TEXT</div>";
+		result = HtmlUtil.cleanEmptyTag(str);
+		assertEquals("<div>TEXT</div>", result);
+
+		str = "<p>TEXT</p><div>TEXT</div>";
+		result = HtmlUtil.cleanEmptyTag(str);
+		assertEquals("<p>TEXT</p><div>TEXT</div>", result);
+
+		str = "TEXT<p></p><div></div>TEXT";
+		result = HtmlUtil.cleanEmptyTag(str);
+		assertEquals("TEXTTEXT", result);
 	}
 
 	@Test

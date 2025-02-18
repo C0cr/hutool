@@ -53,6 +53,16 @@ public class FileUtilTest {
 
 		path = FileUtil.getAbsolutePath("d:");
 		assertEquals("d:", path);
+
+	}
+
+	@Test
+	public void smbPathTest() {
+		final String smbPath = "\\\\192.168.1.1\\share\\rc-source";
+		final String parseSmbPath = FileUtil.getAbsolutePath(smbPath);
+		assertEquals(smbPath, parseSmbPath);
+		assertTrue(FileUtil.isAbsolutePath(smbPath));
+		assertTrue(Paths.get(smbPath).isAbsolute());
 	}
 
 	@Test

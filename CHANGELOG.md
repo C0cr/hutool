@@ -2,6 +2,22 @@
 # 🚀Changelog
 
 -------------------------------------------------------------------------------------------------------------
+# 5.8.36(2025-02-18)
+
+### 🐣新特性
+* 【crypto 】      增加BCUtil.decodeECPrivateKey方法（issue#3829@Github）
+* 【core   】      增加HtmlUtil.cleanEmptyTag方法（pr#3838@Github）
+* 【db     】      GlobalDbSetting优化默认配置读取规则，优先读取文件而非jar中的文件（issue#900@Github）
+* 【dfa    】      删除StopChar类中存在重复字符（pr#3841@Github）
+* 【http   】      支持鸿蒙设备 UA 解析（pr#1301@Gitee）
+
+### 🐞Bug修复
+* 【aop    】      修复ProxyUtil可能的空指针问题（issue#IBF20Z@Gitee）
+* 【core   】      修复XmlUtil转义调用方法错误问题，修复XmlEscape未转义单引号问题（pr#3837@Github）
+* 【core   】      修复FileUtil.isAbsolutePath没有判断smb路径问题（pr#1299@Gitee）
+* 【core   】      修复AbstractFilter没有检查参数长度问题（issue#3854@Github）
+
+-------------------------------------------------------------------------------------------------------------
 # 5.8.35(2024-12-25)
 
 ### 🐣新特性
