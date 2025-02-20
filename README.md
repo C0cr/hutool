@@ -1,56 +1,56 @@
 <p align="center">
-    <a href="https://hutool.cn/"><img src="https://cdn.jsdelivr.net/gh/looly/hutool-site/images/logo.jpg" width="45%"></a>
+	<a href="https://hutool.cn/"><img src="https://cdn.jsdelivr.net/gh/looly/hutool-site/images/logo.jpg" width="45%"></a>
 </p>
 <p align="center">
-    <strong>🍬A set of tools that keep Java sweet.</strong>
+	<strong>🍬A set of tools that keep Java sweet.</strong>
 </p>
 <p align="center">
-    👉 <a href="https://hutool.cn">https://hutool.cn/</a> 👈
+	👉 <a href="https://hutool.cn">https://hutool.cn/</a> 👈
 </p>
 
 <p align="center">
-    <a target="_blank" href="https://search.maven.org/artifact/cn.hutool/hutool-all">
-        <img src="https://img.shields.io/maven-central/v/cn.hutool/hutool-all.svg?label=Maven%20Central" />
-    </a>
-    <a target="_blank" href="https://license.coscl.org.cn/MulanPSL2">
-        <img src="https://img.shields.io/:license-MulanPSL2-blue.svg" />
-    </a>
-    <a target="_blank" href="https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html">
-        <img src="https://img.shields.io/badge/JDK-8+-green.svg" />
-    </a>
-    <a target="_blank" href="https://travis-ci.com/dromara/hutool">
-        <img src="https://travis-ci.com/dromara/hutool.svg?branch=v5-master" />
-    </a>
-    <a href="https://www.codacy.com/gh/dromara/hutool/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=dromara/hutool&amp;utm_campaign=Badge_Grade">
-        <img src="https://app.codacy.com/project/badge/Grade/8a6897d9de7440dd9de8804c28d2871d"/>
-    </a>
-    <a href="https://codecov.io/gh/dromara/hutool">
-        <img src="https://codecov.io/gh/dromara/hutool/branch/v5-master/graph/badge.svg" />
-    </a>
-    <a target="_blank" href="https://gitter.im/hutool/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge">
-        <img src="https://badges.gitter.im/hutool/Lobby.svg" />
-    </a>
-    <a target="_blank" href='https://gitee.com/dromara/hutool/stargazers'>
-        <img src='https://gitee.com/dromara/hutool/badge/star.svg?theme=gvp' alt='star'/>
-    </a>
-    <a target="_blank" href='https://github.com/dromara/hutool'>
-        <img src="https://img.shields.io/github/stars/dromara/hutool.svg?style=social" alt="github star"/>
-    </a>
-    <a target="_blank" href='https://gitcode.com/dromara/hutool'>
-        <img src="https://gitcode.com/dromara/hutool/star/badge.svg" alt="gitcode star"/>
-    </a>
+	<a target="_blank" href="https://search.maven.org/artifact/cn.hutool/hutool-all">
+		<img src="https://img.shields.io/maven-central/v/cn.hutool/hutool-all.svg?label=Maven%20Central" />
+	</a>
+	<a target="_blank" href="https://license.coscl.org.cn/MulanPSL2">
+		<img src="https://img.shields.io/:license-MulanPSL2-blue.svg" />
+	</a>
+	<a target="_blank" href="https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html">
+		<img src="https://img.shields.io/badge/JDK-8+-green.svg" />
+	</a>
+	<a target="_blank" href="https://travis-ci.com/dromara/hutool">
+		<img src="https://travis-ci.com/dromara/hutool.svg?branch=v5-master" />
+	</a>
+	<a href="https://www.codacy.com/gh/dromara/hutool/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=dromara/hutool&amp;utm_campaign=Badge_Grade">
+		<img src="https://app.codacy.com/project/badge/Grade/8a6897d9de7440dd9de8804c28d2871d"/>
+	</a>
+	<a href="https://codecov.io/gh/dromara/hutool">
+		<img src="https://codecov.io/gh/dromara/hutool/branch/v5-master/graph/badge.svg" />
+	</a>
+	<a target="_blank" href="https://gitter.im/hutool/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge">
+		<img src="https://badges.gitter.im/hutool/Lobby.svg" />
+	</a>
+	<a target="_blank" href='https://gitee.com/dromara/hutool/stargazers'>
+		<img src='https://gitee.com/dromara/hutool/badge/star.svg?theme=gvp' alt='star'/>
+	</a>
+	<a target="_blank" href='https://github.com/dromara/hutool'>
+		<img src="https://img.shields.io/github/stars/dromara/hutool.svg?style=social" alt="github star"/>
+	</a>
+	<a target="_blank" href='https://gitcode.com/dromara/hutool'>
+		<img src="https://gitcode.com/dromara/hutool/star/badge.svg" alt="gitcode star"/>
+	</a>
 </p>
 
 <br/>
 <p align="center">
-    <a href="https://qm.qq.com/q/I7pPlTzCa4">
-    <img src="https://img.shields.io/badge/QQ%E7%BE%A4%E2%91%A6-715292493-orange"/></a>
+	<a href="https://qm.qq.com/q/I7pPlTzCa4">
+	<img src="https://img.shields.io/badge/QQ%E7%BE%A4%E2%91%A6-715292493-orange"/></a>
 </p>
 
 -------------------------------------------------------------------------------
 
 
-[**🌎English Documentation**](README-EN.md)(* * * *🌎English文档)(README-EN.md)
+[**🌎English Documentation**](README-EN.md)
 
 -------------------------------------------------------------------------------
 
@@ -115,18 +115,17 @@ Hutool = Hu + tool，是原公司项目底层代码剥离后的开源库，“Hu
 -------------------------------------------------------------------------------
 
 
-
 ## 📦安装
 
 ### 🍊Maven
 在项目的pom.xml的dependencies中加入以下内容:
 
-```xml   “的”xml
-<dependency>   <依赖>
+```xml
+<dependency>
     <groupId>cn.hutool</groupId>
     <artifactId>hutool-all</artifactId>
-    <version>5.8.36</version><版本> 5.8.36 > < /版本
-</dependency>   < /依赖>
+    <version>5.8.36</version>
+</dependency>
 ```
 
 ### 🍐Gradle
@@ -148,8 +147,8 @@ implementation 'cn.hutool:hutool-all:5.8.36'
 
 访问Hutool的Gitee主页：[https://gitee.com/dromara/hutool](https://gitee.com/dromara/hutool) 下载整个项目源码（v5-master或v5-dev分支都可）然后进入Hutool项目目录执行：
 
-```sh   ' ' ' sh
-./hutool.sh install   。/ hutool.sh安装
+```sh
+./hutool.sh install
 ```
 
 然后就可以使用Maven引入了。
@@ -171,9 +170,9 @@ Hutool的源码分为两个分支，功能如下：
 
 提交问题反馈请说明正在使用的JDK版本呢、Hutool版本和相关依赖库版本。
 
-- [Gitee issue   Gitee问题](https://gitee.com/dromara/hutool/issues)- [Gitee issue   Gitee问题]（https://gitee.com/dromara/hutool/issues）
-- [Github issue   Github的问题](https://github.com/dromara/hutool/issues)- [Github问题]（https://github.com/dromara/hutool/issues）
-- [Gitcode issue   Gitcode问题](https://gitcode.com/dromara/hutool/issues)- [Gitcode问题]（https://gitcode.com/dromara/hutool/issues）
+- [Gitee issue](https://gitee.com/dromara/hutool/issues)
+- [Github issue](https://github.com/dromara/hutool/issues)
+- [Gitcode issue](https://gitcode.com/dromara/hutool/issues)
 
 
 ### 🧬贡献代码的步骤
@@ -203,4 +202,4 @@ Hutool欢迎任何人为Hutool添砖加瓦，贡献代码，不过维护者是�
 
 ## ⭐Star Hutool
 
-[![Stargazers over time   随着时间的推移](https://starchart.cc/dromara/hutool.svg)](https://starchart.cc/dromara/hutool)[![随时间变化的观星者](https://starchart.cc/dromara/hutool.svg)]（https://starchart.cc/dromara/hutool）
+[![Stargazers over time](https://starchart.cc/dromara/hutool.svg)](https://starchart.cc/dromara/hutool)
